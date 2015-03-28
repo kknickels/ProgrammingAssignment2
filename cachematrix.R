@@ -55,6 +55,7 @@ cacheSolve <- function(x, ...) {
     return(mi)
   }
   
+  
   # if the inverse has not been cached, retrieves the matrix and stores in 'data'
   data <- x$get()
   
